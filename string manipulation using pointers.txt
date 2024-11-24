@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char a[20]={"february"};
+    char *p=&a;
+    p=p+3;
+    *p=' ';
+    printf("%s",a);
+
+    return 0;
+}
